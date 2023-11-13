@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.m-img{
+    width: 350px;
+}
+
+.m-resum{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.l-muse{
+    color: blue;
+    text-decoration: none;
+}
+
+.ml{
+    text-align: center;
+}
