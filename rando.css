@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #0056b3;
+    text-align: center;
+}
+h2 {
+    color: #004080;
+}
+p {
+    line-height: 1.6;
+}
+.hike {
+    margin-bottom: 20px;
+}
+.hike h2 {
+    margin-top: 0;
+}
+
+#fondpagerando {
+    background: url(https://res.cloudinary.com/easymountain/image/upload/v1687249165/do-web/prod/randonnee_calanques_0f443b74f8.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.imglieu{
+    height: auto;
+    width: 60%;
+
+}
+.imglieu2{
+    display: flex;
+    justify-content: center;
+}
