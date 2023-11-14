@@ -1,0 +1,53 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(https://cdn.pixabay.com/photo/2023/10/26/07/24/sea-8341921_1280.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+main{
+    color: #333;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: 22.5%;
+}
+.container {
+    text-align: center;
+    align-content: center;
+}
+.park {
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 70%;
+    height: auto;
+    align-content: center;}
+.park:hover {
+    transform: translateY(-5px);
+}
+.park img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.park-content {
+    padding: 20px;
+    
+}
+.park-title {
+    margin-top: 0;
+    color: #2a7f62;
+    font-size: 24px;
+}
+.park-desc {
+    font-size: 16px;
+    line-height: 1.6;
+    
+}
